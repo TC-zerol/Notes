@@ -55,3 +55,42 @@ OutOfMemoryError - 内存溢出异常
 ## put方法逻辑
 
 ![image-20200927104750663](F:\java\Notes\剑指java面试\Java常用类库与技巧.assets\image-20200927104750663.png)
+
+
+
+# ConcurrentHashMap：put方法逻辑
+
+![image-20200927105837830](Java常用类库与技巧.assets/image-20200927105837830.png)
+
+![image-20200927110044157](Java常用类库与技巧.assets/image-20200927110044157.png)
+
+
+
+# J.U.C:提供了并发编程的解决方案
+
+CAS是java.util.concurrent.atomic包的基础
+
+AQS是java.util.concuttent.locks包以及一些常用类比如Semophore，ReentrantLock等类的基础
+
+![image-20200927110556558](Java常用类库与技巧.assets/image-20200927110556558.png)
+
+## 并发工具类
+
+闭锁 CountDownLatch
+
+栅栏 CyclicBarrier
+
+信号量 Semaphore
+
+交换器 Exchanger
+
+
+
+## BlockingQueue
+
+![image-20200927110853037](Java常用类库与技巧.assets/image-20200927110853037.png)
+
+
+
+# Java的IO机制
+
